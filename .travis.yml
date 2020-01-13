@@ -1,6 +1,8 @@
 dist: trusty
 sudo: required
-
+arch: ppc64le
+os:
+  - linux
 language: go
 
 env:
